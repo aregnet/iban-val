@@ -6,7 +6,7 @@
     "build": "rollup -c -m",
     "prepare": "husky install",
     "release:dry": "release-it --dry-run --no-npm",
-    "release": "release-it"
+    "release": "npm run lint && npm run test && npm run build && release-it"
   },
   "main": "dist/node/index.js",
   "types": "dist/node/index.d.ts",
