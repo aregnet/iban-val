@@ -96,9 +96,7 @@ describe('Iban Val', function () {
             assert.equal(IbanVal.isValid('DE8937040A440532013000'), false);
         });
         it('should return false when the checksum is not valid', function () {
-            validIbans.forEach((el) => {
-                assert.equal(IbanVal.isValid('DE89370410440532013000'), false);
-            });
+            assert.equal(IbanVal.isValid('DE89370410440532013000'), false);
         });
     });
 
