@@ -11,7 +11,7 @@
   "main": "dist/node/index.js",
   "types": "dist/node/index.d.ts",
   "unpkg": "dist/iban-val.min.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "@aregnet/iban-val",
   "description": "IBAN validation package",
   "author": "Alexander Regnet <alex@wbdv.eu>",
