@@ -8,6 +8,10 @@
     "release:dry": "release-it --dry-run --no-npm",
     "release": "npm run lint && npm run test && npm run build && release-it"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aregnet/iban-val"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "unpkg": "dist/iban-val.min.js",
